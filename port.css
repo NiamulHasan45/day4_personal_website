@@ -1,0 +1,76 @@
+body{
+    font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-image:linear-gradient(white, rgb(91, 214, 87), white);
+}
+h1{
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+}
+
+.header-button{
+    text-align: center;
+    margin-top: 20px;
+}
+.white-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.white-button:hover{
+    background-color: blueviolet;
+}
+#l:hover{
+    background-color: brown;
+}
+.part{
+    display: flex;
+    padding-left: 20px;
+    background-color: brown;
+    margin:100px;
+    margin-top: 20px;
+}
+.half{
+    width: 50%;
+    
+}
+.about{
+    margin-top: 80px;
+}
+.main-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.half img{
+    padding-left: 100px;
+    padding-top: 20px;
+    width: 70%;
+}
+#one_background_image{
+    background-image: url(pic_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.haf{
+    width: 40%;
+    margin: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    box-shadow: 10px 10px 40px grey;
+}
+#one{
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+#Two{
+    border-left: 8px solid;
+    border-image: linear-gradient(green, cyan);
+    border-image-slice: 1;
+}
